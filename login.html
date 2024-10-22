@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Fashion</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<style>
+   body{
+    background-color: blueviolet;
+   }
+   
+
+</style>
+
+
+  </head>
+<body>
+
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-lg " style="background-color: #84bbd1;">
+        
+        <div class="container-fluid  ">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="navbar ">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="https://img.freepik.com/premium-photo/sleek-modern-logo-fashion-store_917213-229675.jpg" alt="" width="60" height="60 "  class="rounded-circle img-fluid border border-info">
+   
+              </a>
+            </div>
+          </nav>
+          
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent" style="padding-left: 20%;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item" >
+                    <a class="nav-link active" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About us</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link active " href="men.html" >
+                          Category
+                    </a>
+                    <ul class="dropdown-menu bg-secondary">
+                      <li><a class="dropdown-item" href="#">Men's</a></li>
+                      <li><a class="dropdown-item" href="#">women's</a></li>
+                      <li><a class="dropdown-item" href="#">Mobiles</a></li>
+                      <li><a class="dropdown-item" href="#">Watchs</a></li>
+                      <li><a class="dropdown-item" href="#">Shoes</a></li>
+                      <li><a class="dropdown-item" href="#">Toy's</a></li>
+    
+                    </ul>
+
+                    <li class="nav-item"></li>
+                <a class="nav-link active" href="cart.html">Cart</a>
+              </li>
+    
+                    <li class="nav-item">
+                      <a class="nav-link active" href="contact.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://www.google.com/maps/place/TRENDS/@16.8598017,81.9254863,17z/data=!4m15!1m8!3m7!1s0x3a3797d392a1d669:0x2932be2c2b86cf76!2sTRENDS!8m2!3d16.8597504!4d81.9255893!10e5!16s%2Fg%2F11h4yczkgf!3m5!1s0x3a3797d392a1d669:0x2932be2c2b86cf76!8m2!3d16.8597504!4d81.9255893!16s%2Fg%2F11h4yczkgf?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D">Location</a>
+                      </li>
+                </ul>
+                
+              </div>
+        </div>
+
+        <li class="nav-item" type="none"></li>
+                <a class="nav-link active p-2" style="margin-right: 5% ; background-color: yellow; border-radius: 10px;" href="login.html">logIn</a>
+              </li>
+
+          </div>  
+      </nav>
+      <!-- nav bar end -->
+     
+      <!-- logIn form start -->
+        <div class="container w-75 ">
+           <div class="card p-2 mt-5 mx-auto border border-info shadow" style="width: 18rem;">
+            <h2 class="text-center">Log In</h2>
+            <form id="loginForm ">
+                <div class="">
+                    <label for="username">UserName:</label>
+                    <input type="text" id="username" name="username" required class="form-control border border-dark">
+                </div>
+                <div class="form-group pb-3 ">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required  class="form-control border border-dark">
+                </div>
+                <button type="submit" class="btn btn-primary text-center mx-auto  d-flex justify-content-center">Log In</button>
+            </form>
+        </div>
+            <p id="message"></p>
+           
+        </div>
+        <!-- logIn form end -->
+
+
+  
+</body>
+</html>
+
+
+
